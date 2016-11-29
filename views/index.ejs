@@ -6,6 +6,18 @@
   </head>
   <body>
     <h1><%= title %></h1>
-    <p>Bienvenido a <%= title %></p>
+    <p>Bienvenido a <%= subtitle %></p>
+
+	<table border="2" width="60%">
+		<tr>
+			<th>TIPO</th>
+			<th>OBSERVACION</th>
+			<th>RECLAMO</th>	
+		</tr>
+		<tr>
+			<td align="center"><%= reclamo.tipoReclamo %></td>
+			<td align="center"><%= reclamo.observacion %></td>
+			<td align="center"><%= reclamo.fechaReclamo %></td>
+		</tr>
   </body>
 </html>
